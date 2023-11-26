@@ -1,0 +1,80 @@
+:root {
+    font-family: "Source Serif Pro", serif, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 600;
+
+    color-scheme: light dark;
+    color: #0B0426;
+    background-color: #FFFFFF;
+   
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    min-width: 320px;
+}
+
+
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 8px 8px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #FC5000;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #0B0426;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.bg {
+    background-color: #EAC6FB;
+}
+
+.bg-accent {
+    background-color: #FC5000;
+}
+
+.flex {
+    display: flex;
+}
+
+.icon-color {
+    color: #0B0426;
+}
+
+textarea {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    color: #0B0426;
+    border-bottom: 1px solid #0B0426;
+    font-size: medium;
+    font-family: 'Source sans Pro';
+}
+::placeholder{
+    color:#0B0426;
+}
+
+/* For PC screens */
+@media (min-width: 769px) {
+    :root {
+        background-color: #FC5000;
+    }
+}
+

@@ -1,0 +1,43 @@
+.todo-container {
+    margin: auto;    
+}
+
+.new-item-container {
+    display: flex;
+    align-items: center;
+}
+
+.add-new-button {
+    margin-left: 16px;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.filter-select {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.logo{
+    border-radius: 8px;
+}
+
+/* For PC screens */
+@media (min-width: 769px) {
+    .todo-container {
+        border-radius: 8px;
+        max-width: 960px;
+        background-color: #FFFFFF;
+        padding: 24px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+}
